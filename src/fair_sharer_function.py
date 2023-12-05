@@ -30,9 +30,3 @@ def fair_sharer(values, num_iterations, share=0.1):
         values_new = values
 
     return values_new
-
-# Test Beispiele
-result1 = fair_sharer([0, 1000, 800, 0], 1)
-print(result1)
-result2 = fair_sharer([0, 1000, 800, 0], 2)
-print(result2)
