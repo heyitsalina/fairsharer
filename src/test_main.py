@@ -1,4 +1,4 @@
-from main.py import fair_sharer
+from main import fair_sharer
 
 # Unit Testing
 def test_fair_sharer():
